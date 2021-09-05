@@ -1,0 +1,31 @@
+body {
+	font-family: cursive;
+	font-size: 14pt;
+	margin: 0px auto;
+	text-align: center;
+}
+
+#puzzlearea {
+    height:400px;
+    margin: 0px auto;
+    overflow: visible; 
+    position: relative;
+    width:400px;
+}
+
+.highlight {
+	/*border-color: red;*/
+	color: red;
+	cursor: pointer;
+}
+
+.puzzlepiece {
+	background-image: url(background.jpg);
+	border: 5px solid black;
+	color: rgb(251, 185, 23);
+	font-family: comic-sans;
+	font-size: 40pt;
+	height: 90px;
+	position: absolute;
+	width: 90px;
+} 
